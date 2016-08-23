@@ -42,7 +42,7 @@
     </div>
 
     <!-- "wider" top-bar menu for 'medium' and up -->
-    <div class="row header show-for-medium column">
+    <div class="row header show-for-medium">
       <div class="medium-12 columns text-right text-uppercase search-nav">
         <a href="#">Search</a> | 
         Follow Us <a href="#" alt="CCCOER on Twitter"><i class="icon-twitter"></i></a>
@@ -50,17 +50,19 @@
       </div>
 
       <div class="medium-3 columns logo-container">
-        <img src="images/logo.png" alt="CCCOER Logo" />
+        <a href="/"><img src="images/logo.png" alt="CCCOER Logo" /></a>
       </div>
 
       <div class="medium-9 columns">
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="has-submenu">
-            <a href="#">Item 1</a>
+            <a href="#">About</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_11">Left wide 1</a></li>
-              <li><a href="left_wide_12">Left wide 2</a></li>
-              <li><a href="left_wide_13">Left wide 3</a></li>
+              <li><a href="left_wide_11">History</a></li>
+              <li><a href="left_wide_12">People</a></li>
+              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="left_wide_13">Contact Us</a></li>
+              <li><a href="left_wide_13">Partners</a></li>
             </ul>
           </li>
           <li class="has-submenu">
@@ -74,8 +76,3 @@
         </ul>
       </div>
     </div>
-
-
-    <!-- original content goes in this container -->
-    <div class="off-canvas-content" data-off-canvas-content>
-      <div class="row column">
