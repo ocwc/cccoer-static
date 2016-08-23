@@ -280,3 +280,17 @@ li.footer-header {
 	bottom: rem-calc(12);
 	left: rem-calc(12);
 }
+
+/* Home - Partners */
+.home-partners {
+	background-color: $white;
+	border-bottom: 1px solid #B8B8B8;
+
+	padding-top: rem-calc(20);
+	padding-bottom: rem-calc(60);
+}
+
+.home-partners-title {
+	margin-top: rem-calc(20);
+	margin-bottom: rem-calc(20);
+}

@@ -129,5 +129,26 @@
 		</div>
 	</div>
 
+	<div class="home-partners">
+		<div class="row align-center">
+			<div class="small-12 columns text-center home-partners-title">
+				<p class="text-uppercase">Partners</p>
+			</div>
+
+			<div class="columns shrink">
+				<img src="/images/Hewlett-Foundation-Logo.png" />
+			</div>
+			<div class="columns shrink">
+				<img src="/images/Lumen-1.png" />
+			</div>
+			<div class="columns shrink">
+				<img src="/images/ATD_logo.png" />
+			</div>
+			<div class="columns shrink">
+				<img src="/images/sri-logo.png" />
+			</div>
+		</div>
+	</div>
+
 <!-- </div> -->
 <?php include('inc/footer.php'); ?>	
