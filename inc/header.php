@@ -44,9 +44,9 @@
     <!-- "wider" top-bar menu for 'medium' and up -->
     <div class="row header show-for-medium">
       <div class="medium-12 columns text-right text-uppercase search-nav">
-        <a href="#">Search</a> | 
-        Follow Us <a href="#" alt="CCCOER on Twitter"><i class="icon-twitter"></i></a>
-              <a href="#" alt="CCCOER on Facebook"><i class="icon-facebook"></i></a>
+        <a href="#">Search <i class="icon-search"></i></a>
+        Follow Us 
+          <a href="#" alt="CCCOER on Twitter"><i class="icon-twitter"></i></a><a href="#" alt="CCCOER on Facebook"><i class="icon-facebook"></i></a>
       </div>
 
       <div class="medium-3 columns logo-container">

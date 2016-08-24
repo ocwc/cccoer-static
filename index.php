@@ -1,6 +1,5 @@
 <?php include('inc/header.php'); ?>
 
-
 <div class="row text-center align-center subheading-nobg">
 	<div class="small-12 columns">
 		<h1 class="subheading-nobg-h1">Community of Practice for OER adoption</h1>

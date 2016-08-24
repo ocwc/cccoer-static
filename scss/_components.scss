@@ -13,6 +13,34 @@ $helvetica: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: $grey;
 }
 
+.search-nav,
+.search-nav a {
+	color: $text-grey;
+}
+
+.search-nav a:hover {
+	color: $blue;
+
+}
+
+/* Icons */
+
+.icon-search {
+	font-size: rem-calc(21);
+	border-right: 1px solid #C8C8C8;
+	padding-right: rem-calc(5);
+	margin-right: rem-calc(5);
+}
+
+.icon-twitter,
+.icon-facebook {
+	font-size: rem-calc(21);
+}
+
+.search-nav a:hover .icon-search {
+	fill: $blue;
+}
+
 /* Body */
 body {
 
