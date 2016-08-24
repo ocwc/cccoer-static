@@ -24,21 +24,37 @@
     <!-- off-canvas left menu -->
     <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
       <ul class="vertical drilldown menu" data-responsive-menu="drilldown medium-dropdown">
-        <li><a href="left_item_1">About</a></li>
-        <li>
-        	<a href="left_item_2">Plan</a>
-        	<ul class="vertical menu">
-        		<li><a href="#">Submenu 1</a></li>
-        		<li><a href="#">Submenu 2</a></li>
-        		<li><a href="#">Submenu 3</a></li>
-        		<li><a href="#">Submenu 4</a></li>
-        	</ul>
-        </li>
-        <li><a href="left_item_3">Learn</a></li>
-        <li><a href="left_item_4">Connect</a></li>
-        <li><a href="left_item_5">OER Degrees</a></li>
-        <li><a href="left_item_6">Become a Member</a></li>
-      </ul>
+          <li class="has-submenu">
+            <a href="#">About</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="left_wide_11">History</a></li>
+              <li><a href="left_wide_12">People</a></li>
+              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="left_wide_13">Contact Us</a></li>
+              <li><a href="left_wide_13">Partners</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Plan</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="left_wide_13">Contact Us</a></li>
+              <li><a href="left_wide_13">Partners</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="/learn.php">Learn</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Connect</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">OER Degrees</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Become a member</a>
+          </li>
+        </ul>
     </div>
 
     <!-- "wider" top-bar menu for 'medium' and up -->
@@ -66,12 +82,24 @@
             </ul>
           </li>
           <li class="has-submenu">
-            <a href="#">Item 2</a>
+            <a href="#">Plan</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_21">Left wide 1</a></li>
-              <li><a href="left_wide_22">Left wide 2</a></li>
-              <li><a href="left_wide_23">Left wide 3</a></li>
+              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="left_wide_13">Contact Us</a></li>
+              <li><a href="left_wide_13">Partners</a></li>
             </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="/learn.php">Learn</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Connect</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">OER Degrees</a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Become a member</a>
           </li>
         </ul>
       </div>
