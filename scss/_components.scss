@@ -104,15 +104,19 @@ li.footer-header {
 }
 
 .menu .is-active li:hover {
-	background-color: $white;
+	background-color: $greenDark;
 }
 
 .menu .is-active li:hover a {
-	color: $blue;
+	color: $white;
 }
 
 .menu.submenu a {
 	font-weight: normal;
+}
+
+.is-dropdown-submenu {
+	border: none;
 }
 
 .dropdown.menu>li.is-dropdown-submenu-parent.is-active>a::after {
@@ -170,6 +174,7 @@ li.footer-header {
 .button.white:hover, .button.white:focus {
 	background-color: $white;
 	color: $blue;
+	border-color: $white;
 }
 
 .button.green-light {
@@ -212,7 +217,7 @@ li.footer-header {
 	margin-left: rem-calc(13);
     font-size: rem-calc(14);
     color: $white;
-    text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
 
 .card-title {
@@ -266,7 +271,19 @@ li.footer-header {
 
 .home-social-divider {
 	margin-top: rem-calc(16);
-	margin-bottom: rem-calc(32);
+	margin-bottom: rem-calc(20);
+}
+
+.home-social-icons {
+	margin-top: rem-calc(20);
+}
+
+.home-social-icons a {
+	margin-right: rem-calc(30);
+
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .card-social {

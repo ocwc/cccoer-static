@@ -38,6 +38,12 @@
 					<a href="#" class="card">
 						<img class="" src="http://lorempixel.com/g/400/260/" />
 						<div class="card-section text-uppercase">
+							<?php 
+								$input = array('<i class="icon-desktop"></i>',
+											   '<i class="icon-newspaper"></i>',
+											   '<i class="icon-user"></i>');
+								echo $input[array_rand($input, 1)];
+							?>
 							Member Highlights
 						</div>
 						<div class="card-white">
@@ -124,7 +130,16 @@
 		</div>
 
 		<div class="row align-center">
-			<span class="text-upperace">Follow our social media pages</span>
+			<div class="small-12 columns text-center">
+				<span class="text-upperace">Follow our social media pages</span>
+			</div>
+
+			<div class="small-12 columns home-social-icons text-center">
+				<a href="#"><img src="/images/icons/icon-tw2.svg" /></a>
+				<a href="#"><img src="/images/icons/icon-fb2.svg" /></a>
+				<a href="#"><img src="/images/icons/icon-slideshare.svg" /></a>
+				<a href="#"><img src="/images/icons/icon-youtube.svg" /></a>
+			</div>
 		</div>
 	</div>
 
