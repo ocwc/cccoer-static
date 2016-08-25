@@ -481,6 +481,8 @@ li.footer-header {
 
 /* Post Avatar */
 .post-avatar {
+	font-size: rem-calc(14);
+
 	@include breakpoint(small only) {
 		text-align: left;
 	}
@@ -491,7 +493,7 @@ li.footer-header {
 	margin-top: rem-calc(15);
 
 	border-radius: rem-calc(120);
-	width: 40%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -506,18 +508,20 @@ li.footer-header {
 }
 
 .post-share {
-	margin-top: rem-calc(60);
+	margin-top: rem-calc(60)
 }
 
 .post-share-text {
 	display: block;
 	margin-bottom: rem-calc(15);
+
+	font-size: rem-calc(14);;
 }
 
 .post-share img {
 	display: inline-block;
 	width: rem-calc(30);
-	
+
 	margin-bottom: rem-calc(15);
 	padding-bottom: rem-calc(15);
 	border-bottom: 1px solid #CDCDCD;
@@ -528,6 +532,47 @@ li.footer-header {
 	padding-bottom: 0;
 }
 
+.post-event-date {
+	// float: left;
+	
+	width: rem-calc(79);
+	height: rem-calc(79);
+
+	padding: rem-calc(10);
+	background-color: $blue;
+	
+	color: $white;
+	text-align: center;
+	font-weight: bold;
+	border-radius: rem-calc(5);
+}
+
+.post-event-date-month {
+	display: block;
+	font-size: rem-calc(20);
+	text-transform: uppercase;
+	line-height: 1.3;
+}
+
+.post-event-date-day {
+	display: block;
+	font-size: rem-calc(30);
+	line-height: 1.1;
+}
+
+.post-event dt {
+	margin-bottom: 0;
+}
+
+.post-event dd {
+	margin-bottom: rem-calc(10);
+}
+
+.post-event-info {
+	@include breakpoint(small only) {
+		margin-left: rem-calc(100);
+	}
+}
 
 /* Post Content - Aligned Image */
 .gallery-box {
