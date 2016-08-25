@@ -9,7 +9,7 @@
 		<div class="small-12 columns post-title-container">
 			<h1 class="post-title u-color-white">Open Educational Resources: Transforming the Classroom Experience</h1>
 			<a class="subheading-image-attribution hide-for-small-only">Photo by Sonny Abesamis <i class="icon-camera"></i></a>
-			<a class="subheading-published"><i class="icon-camera"></i> Published on August 18 2016</a>
+			<span class="subheading-published"><i class="icon-camera"></i> Published on August 18 2016</span>
 		</div>
 	</div>
 	<div class="post-content post-content-single post-content-left-meta row">
