@@ -371,6 +371,18 @@ li.footer-header {
 	background-repeat: no-repeat;
 }
 
+.subheading-iconbg {
+	height: rem-calc(480);	
+}
+
+.subheading-background-icon {
+	float: right;
+	height: rem-calc(280);
+
+	margin-top: -40px;
+	opacity: 0.22;
+}
+
 /* Post Content */
 .post-content {
 	margin-top: rem-calc(-90);

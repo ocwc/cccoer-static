@@ -28,8 +28,8 @@
             <a href="#">About</a>
             <ul class="menu submenu vertical" data-submenu>
               <li><a href="/post.php">History</a></li>
-              <li><a href="left_wide_12">People</a></li>
-              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="/post-svg.php">People</a></li>
+              <li><a href="/post-webinar.php">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
               <li><a href="left_wide_13">Partners</a></li>
             </ul>
@@ -75,8 +75,8 @@
             <a href="#">About</a>
             <ul class="menu submenu vertical" data-submenu>
               <li><a href="/post.php">History</a></li>
-              <li><a href="left_wide_12">People</a></li>
-              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="/post-svg.php">People</a></li>
+              <li><a href="/post-webinar.php">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
               <li><a href="left_wide_13">Partners</a></li>
             </ul>
