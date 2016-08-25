@@ -27,7 +27,7 @@
           <li class="has-submenu">
             <a href="#">About</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_11">History</a></li>
+              <li><a href="/post.php">History</a></li>
               <li><a href="left_wide_12">People</a></li>
               <li><a href="left_wide_13">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
@@ -74,7 +74,7 @@
           <li class="has-submenu">
             <a href="#">About</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_11">History</a></li>
+              <li><a href="/post.php">History</a></li>
               <li><a href="left_wide_12">People</a></li>
               <li><a href="left_wide_13">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
