@@ -683,3 +683,20 @@ li.footer-header {
 .pagination li {
 	border-radius: 0;
 }
+
+/* 404 page */
+.notfound {
+	padding-top: rem-calc(98);
+	padding-bottom: rem-calc(110);
+	background-image: linear-gradient(270deg, #4171DD 1%, #1F3EB9 100%);
+
+	color: $white;
+}
+
+.notfound-404 {
+	display: block;
+
+	color: $white;
+	font-size: rem-calc(200);
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}

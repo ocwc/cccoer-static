@@ -37,7 +37,7 @@
           <li class="has-submenu">
             <a href="#">Plan</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="/404.php">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
               <li><a href="left_wide_13">Partners</a></li>
             </ul>
@@ -84,7 +84,7 @@
           <li class="has-submenu">
             <a href="#">Plan</a>
             <ul class="menu submenu vertical" data-submenu>
-              <li><a href="left_wide_13">Members</a></li>
+              <li><a href="/404.php">Members</a></li>
               <li><a href="left_wide_13">Contact Us</a></li>
               <li><a href="left_wide_13">Partners</a></li>
             </ul>
