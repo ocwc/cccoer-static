@@ -639,6 +639,21 @@ li.footer-header {
 	margin-bottom: rem-calc(16);
 }
 
+/* Search */
+.search-form {
+	border-bottom: 1px solid $grey;
+
+	margin-bottom: rem-calc(36);
+	margin-left: rem-calc(16);
+	padding-bottom: rem-calc(16);
+
+}
+
+.search-form label {
+	margin-left: rem-calc(-36);
+	font-size: rem-calc(24);
+}
+
 /* Post Content - Aligned Image */
 .gallery-box {
 	margin: rem-calc(15);
