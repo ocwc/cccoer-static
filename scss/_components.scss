@@ -642,16 +642,25 @@ li.footer-header {
 /* Search */
 .search-form {
 	border-bottom: 1px solid $grey;
-
-	margin-bottom: rem-calc(36);
-	margin-left: rem-calc(16);
 	padding-bottom: rem-calc(16);
 
+	@include breakpoint(small only) {
+		margin-top: rem-calc(16);
+		margin-bottom: rem-calc(24);
+	}
+
+	@include breakpoint(medium) {
+		margin-bottom: rem-calc(36);
+		margin-left: rem-calc(16);
+	}
 }
 
 .search-form label {
-	margin-left: rem-calc(-36);
 	font-size: rem-calc(24);
+
+	@include breakpoint(medium) {
+		margin-left: rem-calc(-36);
+	}
 }
 
 /* Post Content - Aligned Image */
