@@ -54,5 +54,7 @@
 			</div>
 		</div>
 	</div>
+
+	<?php include('partials/_related.php'); ?>
 <!-- </div> -->
 <?php include('inc/footer.php'); ?>	
