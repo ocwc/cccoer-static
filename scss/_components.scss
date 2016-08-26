@@ -482,12 +482,13 @@ li.footer-header {
 }
 
 .subheading-narrow .post-title-container {
-	margin-top: rem-calc(-380);
+	margin-top: rem-calc(-360);
 	margin-bottom: rem-calc(30);
 }
 
 .subheading-narrow .post-title {
 	font-size: rem-calc(40);
+	margin-bottom: rem-calc(90);
 }
 
 /* Post Avatar */
@@ -651,4 +652,9 @@ li.footer-header {
 	padding: rem-calc(5);
 	font-size: rem-calc(14);
 	color: #7C7C7C;
+}
+
+/* Pagination */
+.pagination li {
+	border-radius: 0;
 }

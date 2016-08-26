@@ -47,6 +47,8 @@
 
 			</div>
 			<?php endforeach; ?>
+
+			<?php include('partials/_pagination.php'); ?>
 		</div>
 	</div>
 <!-- </div> -->
