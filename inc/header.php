@@ -31,7 +31,7 @@
               <li><a href="/post-svg.php">People</a></li>
               <li><a href="/post-webinar.php">Members</a></li>
               <li><a href="/listing.php">Contact Us</a></li>
-              <li><a href="left_wide_13">Partners</a></li>
+              <li><a href="/search.php">Partners</a></li>
             </ul>
           </li>
           <li class="has-submenu">
@@ -78,7 +78,7 @@
               <li><a href="/post-svg.php">People</a></li>
               <li><a href="/post-webinar.php">Members</a></li>
               <li><a href="/listing.php">Contact Us</a></li>
-              <li><a href="left_wide_13">Partners</a></li>
+              <li><a href="/search.php">Partners</a></li>
             </ul>
           </li>
           <li class="has-submenu">
